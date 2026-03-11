@@ -1,6 +1,6 @@
 # 📁 The `images/` Folder
 
-This folder is where you should store **all image files** used in your website. Keeping all images in one place helps keep your project organized and makes it easier to reference them in your HTML and CSS files.
+hello This folder is where you should store **all image files** used in your website. Keeping all images in one place helps keep your project organized and makes it easier to reference them in your HTML and CSS files.
 
 ---
 
