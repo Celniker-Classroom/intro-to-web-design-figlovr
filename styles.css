@@ -1,1 +1,83 @@
+h1{
+    color:rgb(67, 136, 148);
+    margin-left: 50px;
+    margin-top: 20px;
+} 
 
+.title {
+    background-color: rgb(245, 212, 234);
+    width: 100%;
+    padding: 1px;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+h3 {
+    color: rgb(245, 212, 234);
+    align-items: center;
+}
+
+body {
+    background-color:rgb(67, 136, 148);
+    color:azure;
+    font-family:Andale-Mono, monospace;
+}
+
+.about-me{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.section {
+    display: flex; 
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 25px;
+    margin-left: 25px;
+} 
+
+.image1 {
+     display: block; 
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 80%;
+    float: left;
+}
+
+
+.image1 {
+    display: block;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 80%;
+    float: left;
+}
+
+.image2 {
+    display: block;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 80%;
+    float: left;
+}
+
+.image3 {
+    display: block;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 95%;
+    float: left;
+}
+
+.quote {
+    color: rgb(190, 218, 223);
+}
