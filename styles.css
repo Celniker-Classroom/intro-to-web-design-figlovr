@@ -23,6 +23,7 @@ body {
     background-color:rgb(67, 136, 148);
     color:azure;
     font-family:Andale-Mono, monospace;
+    line-height: normal;
 }
 
 .about-me{
