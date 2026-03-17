@@ -92,3 +92,28 @@ body {
 .quote {
     color: rgb(190, 218, 223);
 }
+
+/* Responsive layout: stack sections on smaller screens */
+@media (max-width: 800px) {
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .section {
+        max-width: 600px;
+        margin: 15px 0;
+    }
+
+    .section img {
+        width: 70%;
+    }
+}
+
+/* Optional smaller breakpoint for very narrow screens */
+@media (max-width: 500px) {
+    .section img {
+        width: 90%;
+    }
+}
