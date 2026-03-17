@@ -42,15 +42,6 @@ body {
     margin-left: 25px;
 } 
 
-.image1 {
-     display: block; 
-    margin: 10px;
-    object-fit: cover;
-    border-radius: 50%;
-    width: 80%;
-    float: left;
-}
-
 
 .image1 {
     display: block;
@@ -59,6 +50,17 @@ body {
     border-radius: 50%;
     width: 80%;
     float: left;
+}
+
+#glow {
+    box-shadow: 0 0 20px rgba(252. 85. 185. 0.55);
+    transition: box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+#glow:hover,
+#glow:focus-visible {
+    box-shadow: 0 0 40px rgba(253, 101, 192, 0.9);
+    filter: drop-shadow(0 0 70px rgb(252, 85, 185));
 }
 
 .image2 {
