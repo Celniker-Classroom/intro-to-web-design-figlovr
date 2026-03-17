@@ -63,6 +63,14 @@ body {
     filter: drop-shadow(0 0 70px rgb(252, 85, 185));
 }
 
+.link {
+    color:rgb(190, 218, 223);
+}
+
+.link:hover {
+    color: rgb(252, 85, 185);
+}
+
 .image2 {
     display: block;
     margin: 10px;
