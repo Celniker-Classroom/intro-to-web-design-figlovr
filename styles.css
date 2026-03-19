@@ -163,8 +163,7 @@ h2 {
 .albums {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;  
-  gap: 10px;   
+  flex-wrap: wrap;     
   justify-content: space-evenly;
 }
 
