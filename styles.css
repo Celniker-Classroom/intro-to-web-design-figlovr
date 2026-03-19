@@ -1,3 +1,7 @@
+/* 
+I have one extra feature:
+*/
+
 h1{
     color:rgb(67, 136, 148);
     margin-left: 50px;
@@ -6,12 +10,18 @@ h1{
 
 .title {
     background-color: rgb(245, 212, 234);
-    width: 100%;
-    padding: 1px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 1px 0;
 }
 
-h2 {
+#quote {
     margin-left: 50px;
+    text-align: center;
 }
 
 h3 {
@@ -20,31 +30,36 @@ h3 {
 }
 
 body {
-    background-color:rgb(67, 136, 148);
-    color:azure;
-    font-family:Andale-Mono, monospace;
+    background-color: rgb(67, 136, 148);
+    color: azure;
+    font-family: Andale-Mono, monospace;
     line-height: normal;
+
+    /* make layout responsive and allow centering */
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .about-me{
     display: flex;
-    width: 100%;
     justify-content: space-evenly;
     flex-direction: row;
+    margin: 0 auto;
 }
 
 .section {
-    display: flex; 
-    justify-content: top;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     margin-right: 25px;
     margin-left: 25px;
-} 
+}
 
 
 #glow {
-    box-shadow: 0 0 20px rgba(252. 85. 185. 0.55);
+    box-shadow: 0 0 20px rgba(252, 85, 185, 0.55);
     transition: box-shadow 0.3s ease, filter 0.3s ease;
 }
 
@@ -54,44 +69,49 @@ body {
     filter: drop-shadow(0 0 70px rgb(252, 85, 185));
 }
 
-h2:hover {
-    color: whitesmoke;
-    transition: color 1s ease, filter
+h2 {
+    transition: color 1s ease, filter 1s ease;
+}
+
+#quote:hover {
+    color: rgb(155, 223, 255);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 
 .link {
-    color:rgb(190, 218, 223);
+    color:rgb(134, 216, 253);
 }
 
 .link:hover {
     color: rgb(252, 85, 185);
 }
 
+.link:visited {
+    color: rgb(190, 218, 223);
+}
+
 .image1 {
     display: block;
-    margin: 10px;
+    margin: 10px auto;
     object-fit: cover;
     border-radius: 50%;
-    width: 85%;
-    float: left;
+    width: 95%;
 }
 
 .image2 {
     display: block;
-    margin: 10px;
+    margin: 10px auto;
     object-fit: cover;
     border-radius: 50%;
-    width: 68%;
-    float: left;
+    width: 75%;
 }
 
 .image3 {
     display: block;
-    margin: 10px;
+    margin: 10px auto;
     object-fit: cover;
     border-radius: 50%;
-    width: 97%;
-    float: left;
+    width: 93%;
 }
 
 .quote {
@@ -135,3 +155,27 @@ h2:hover {
         width: 90%;
     }
 }
+
+.album-cover {
+    width: 230px;
+}
+
+.albums {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+  gap: 10px;   
+  justify-content: space-evenly;
+}
+
+.favorites {
+    margin-bottom: 100px;
+}
+
+#click {
+    color: azure;
+}
+
+#favs {
+    color: rgb(245, 212, 234);
+} 
